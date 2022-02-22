@@ -82,7 +82,7 @@ public class Sketch extends PApplet {
     //sun
     noStroke();
     fill(255, 234, 0);
-    ellipse(400, 0, 115, 115);
+    ellipse(400, 0, 120, 120);
 
     //clouds
     stroke(237, 244, 255);
@@ -92,7 +92,11 @@ public class Sketch extends PApplet {
     ellipse(120, 120, 35, 35);
     rect(60, 125, 60, 12, 5);
 
-    rect(330, 140, 70, 60, 40);
+    rect(300, 155, 90, 35, 160);
+    ellipse(345, 155, 50, 50);
+    ellipse(315, 173, 35, 35);
+    ellipse(375, 173, 35, 35);
+    
     
 
 
