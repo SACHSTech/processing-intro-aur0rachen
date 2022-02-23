@@ -75,6 +75,23 @@ public class Sketch extends PApplet {
     curveVertex(159, 315);
     endShape();
 
+    line(201, 330, 241, 330);
+    beginShape();
+    curveVertex(201, 330);
+    curveVertex(201, 330);
+    curveVertex(220, 323);
+    curveVertex(241, 330);
+    curveVertex(241, 330);
+    endShape();
+
+    beginShape();
+    curveVertex(201, 330);
+    curveVertex(201, 330);
+    curveVertex(220, 337);
+    curveVertex(241, 330);
+    curveVertex(241, 330);
+    endShape();
+    
     //grass
     fill(210, 255, 173);
     rect(0, 370, 400, 30);
