@@ -1,5 +1,10 @@
 import processing.core.PApplet;
 
+  /**
+  * Description: Prints out a flower by calling processing functions
+  * @author: Aurora Chen
+  */
+
 public class Sketch extends PApplet {
 	
 	
@@ -16,7 +21,7 @@ public class Sketch extends PApplet {
    * values here i.e background, fill, fill etc.
    */
   public void setup() {
-    //light blue background
+    // light blue background
     background(158, 221, 255);
   }
 
@@ -24,37 +29,12 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-	  
-    //top petal
-    stroke(240, 89, 229);
-    fill(255, 201, 251);
-    ellipse (200, 223, 35, 35);  
-
-    //top right petal
-    ellipse(225, 245, 35, 35); 
-
-    //top left petal
-    ellipse(175, 245, 35, 35); 
-
-    //stem
+    // stem
     stroke(1, 71, 14);
     fill(14, 110, 32);
     rect(199, 280, 2, 90, 1);
-
-    //bottom right petal
-    stroke(240, 89, 229);
-    fill(255, 201, 251);
-    ellipse(215, 275, 35, 35); 
-
-    //bottom left petal
-    ellipse(185, 275, 35, 35);
-
-    //center of flower
-    stroke(255, 202, 25);
-    fill(255, 236, 173);
-    ellipse(200, 250, 30, 30);
-
-    //leaf
+    
+    // leaf
     line(199, 315, 159, 315);
     
     stroke(1, 71, 14);
@@ -91,17 +71,39 @@ public class Sketch extends PApplet {
     curveVertex(241, 330);
     curveVertex(241, 330);
     endShape();
-    
-    //grass
+
+    // grass
     fill(210, 255, 173);
     rect(0, 370, 400, 30);
+    
+    // top petal
+    stroke(240, 89, 229);
+    fill(255, 201, 251);
+    ellipse (200, 223, 35, 35);  
 
-    //sun
+    // top right petal
+    ellipse(225, 245, 35, 35); 
+
+    // top left petal
+    ellipse(175, 245, 35, 35); 
+
+    // bottom right petal
+    ellipse(215, 275, 35, 35); 
+
+    // bottom left petal
+    ellipse(185, 275, 35, 35);
+
+    // center of flower
+    stroke(255, 202, 25);
+    fill(255, 236, 173);
+    ellipse(200, 250, 30, 30);
+
+    // sun
     noStroke();
     fill(255, 234, 0);
     ellipse(400, 0, 120, 120);
 
-    //clouds
+    // clouds
     stroke(237, 244, 255);
     fill(237, 244, 255);
     ellipse(60, 120, 35, 35);
@@ -114,10 +116,6 @@ public class Sketch extends PApplet {
     ellipse(315, 173, 35, 35);
     ellipse(375, 173, 35, 35);
     
-    
-
-
-
   }
   
   // define other methods down here.
