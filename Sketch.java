@@ -37,7 +37,6 @@ public class Sketch extends PApplet {
     // leaf
     line(199, 315, 159, 315);
     
-    stroke(1, 71, 14);
     fill(14, 110, 32);
     beginShape();
     curveVertex(199, 315);
@@ -79,7 +78,7 @@ public class Sketch extends PApplet {
     // top petal
     stroke(240, 89, 229);
     fill(255, 201, 251);
-    ellipse (200, 223, 35, 35);  
+    ellipse (200, 225, 35, 35);  
 
     // top right petal
     ellipse(225, 245, 35, 35); 
